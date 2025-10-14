@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: sans-serif;
+}
+#contenedor{
+    width: 90%;
+    height: 2390px;
+    padding: 10px;
+    margin: 65px -100px 10px 65px;
+    border:1px solid gray;
+}
+#cabecera{
+    padding: 20px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;  
+    align-items: center;
+    height: 72px; 
+    background-color: #F2CF1D;
+    border-bottom: 2px solid grey;
+    margin: 29px; 
+    margin-bottom: 2px;
+}
+#cabecera h1{    
+    font-family: Helvetica;
+    font-style: italic;
+    text-transform: uppercase;    
+}
+#menu > ul {
+    padding: 200px;
+    display: flex;
+    flex-direction: row;   
+    list-style-type: none;
+    font-size: 10pt;
+    height: 100%;
+}
+#menu a {
+    color: black;
+    font-size: large;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 30px;
+}
+#menu a:hover {
+    border-radius: 7px;
+    background-color: dimgrey;
+    color: white;
+}
+#logo2 img{
+    width: 10.2%;
+    position: absolute;
+    top: 105px;
+    left: 1259px;
+}
+#logo img{
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-bottom: 10px;
+}
+#personajes img {  
+   width: 24%;
+   height: 500px;
+   position: absolute;
+   top: 760px;
+   left: 1037px;
+   box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
+}
+#casco img {
+   width: 24%;
+   height: 450px;
+   position: absolute;
+   top: 1950px;
+   left: 108px;
+   box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
+}
+#contenido {
+    padding:10px;
+    height: 2300px;
+} 
+#contenido div{
+    margin:20px;
+}
+#contenido li{
+    font-weight: bolder;
+    font-style: italic;   
+    padding: 25px; 
+}
+#contenido ol {
+    padding: 10px;
+}
+p{
+    font-weight: 100;
+    text-align: justify;
+    margin-top: 10px;
+}
+h2{
+    text-decoration: underline;
+    margin-bottom: 5px;
+    background-color: darkred;
+    color:white;
+    padding:5px;
+}
+#Precuelas ol {
+    width: 69%;
+    margin-left: 12px;
+}
+#Originales ol {
+    margin-left: 12px;
+}
+#Secuelas ol {
+    width: 70%;
+    padding: 10px;
+    margin-left: 400px;
+}
+
