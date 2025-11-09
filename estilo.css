@@ -53,7 +53,8 @@
     height: 130px;         /* aumenta la altura (ajusta visualmente el celeste) */
     position: absolute;           /* lo baja un poquito */
     margin-right: 105px;          /* lo mueve un poco más a la derecha */
-    object-fit: cover;     /* evita que se deforme al cambiar la altura */
+    object-fit: cover;  
+    margin-bottom: 30px;/* evita que se deforme al cambiar la altura */
 }
 #logo img{
     width: 100%;
@@ -114,6 +115,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
