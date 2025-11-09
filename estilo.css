@@ -50,9 +50,10 @@
 }
 #logo2 img {
     width: 9.2%;
+    height: 5px;
     position: absolute;
     top: 40px;   /* ajusta según necesites */
-    right: 80px;
+    right: 75px;
 }
 #logo img{
     width: 100%;
@@ -72,7 +73,7 @@
     width: 22%;
     height: 450px;
     position: absolute;
-    top: 1750px; /* ajusta según necesites */
+    top: 1780px; /* ajusta según necesites */
     left: 80px;
     box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
@@ -115,6 +116,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
