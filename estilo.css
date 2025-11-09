@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 #contenedor{
-    width: 90%;
+    width: 100%;
     height: 2390px;
     padding: 10px;
     margin: 65px -100px 10px 65px;
@@ -114,6 +114,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
