@@ -48,10 +48,10 @@
     color: white;
 }
 #logo2 img{
-    width: 9.5%;
-    position: relative;
+    width: 9.2%;
+    position: absolute;
     top: 105px;
-    right: 50%;
+    right: 118px;
 }
 #logo img{
     width: 100%;
@@ -60,19 +60,19 @@
     margin-bottom: 10px;
 }
 #personajes img {  
-   width: 23%;
+   width: 24%;
    height: 500px;
-   position: relative;
+   position: absolute;
    top: 760px;
-   right: 100px;
+   right: 134px;
    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
 }
 #casco img {
-   width: 24%;
+   width: 22%;
    height: 450px;
-   position: relative;
-   top: 1950px;
-   left: 70px;
+   position: absolute;
+   top: 1880px;
+   left: 109px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
@@ -114,6 +114,8 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
+
 
 
 
