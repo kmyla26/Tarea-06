@@ -52,8 +52,8 @@
     width: 9.2%;           /* igual que antes */
     height: 130px;         /* aumenta la altura (ajusta visualmente el celeste) */
     position: absolute;   
-    margin-top: 20px;/* lo baja un poquito */
-    margin-right: 105px;          /* lo mueve un poco más a la derecha */
+    top: 20px;/* lo baja un poquito */
+    right: 105px;          /* lo mueve un poco más a la derecha */
     object-fit: cover;  
 }
 #logo img{
@@ -66,16 +66,16 @@
     width: 24%;
     height: 500px;
     position: absolute; /* ajusta visualmente */
-    margin-right: 40px;
-    margin-top: 30px;
+    right: 40px;
+    top: 30px;
     box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
 }
 #casco img {
    width: 22%;
    height: 450px;
    position: absolute;
-   margin-top: 2200px;
-   margin-left: 40px;
+   top: 2200px;
+   left: 40px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
@@ -117,6 +117,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
