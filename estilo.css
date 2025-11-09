@@ -51,8 +51,7 @@
 #logo2 img {
     width: 9.2%;           /* igual que antes */
     height: 130px;         /* aumenta la altura (ajusta visualmente el celeste) */
-    position: absolute;
-    margin-top: -80px;             /* lo baja un poquito */
+    position: absolute;           /* lo baja un poquito */
     margin-right: 105px;          /* lo mueve un poco más a la derecha */
     object-fit: cover;     /* evita que se deforme al cambiar la altura */
 }
@@ -116,6 +115,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
