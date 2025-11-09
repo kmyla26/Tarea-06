@@ -50,10 +50,10 @@
 }
 #logo2 img {
     width: 11%;           /* un poco más largo */
-    height: 120px;         /* cubre más el fondo celeste */
+    height: 112px;         /* cubre más el fondo celeste */
     position: absolute;
-    top: 90px;             /* lo sube un poco */
-    right: 100px;          /* lo coloca un poco más a la derecha */
+    top: 39px;             /* lo sube un poco */
+    right: 39px;          /* lo coloca un poco más a la derecha */
     object-fit: cover;  
 }
 #logo img{
@@ -63,50 +63,25 @@
     margin-bottom: 10px;
 }
 /* ==== PERSONAJES EN PRECUELAS ==== */
-#Precuelas {
-    display: flex;              /* activa diseño en fila */
-    justify-content: space-between;
-    align-items: flex-start;
-    margin-bottom: 60px;        /* separa visualmente las secciones */
-}
-#personajes {
-    flex: 0 0 30%;              /* el bloque del personaje ocupa 30% */
-    text-align: right;
-}
-#personajes img {
-    width: 90%;                 /* se adapta al espacio */
-    height: auto;
+#personajes img{
+    position: absolute;
+    top: 699px;
+    right: 53px;
+    width: 25%;                 /* se adapta al espacio */
+    height: 20%;
     box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
     border-radius: 10px;
 }
-#Precuelas ol {
-    flex: 0 0 65%;              /* el texto ocupa el resto */
-    margin-left: 20px;
-}
-
 /* ==== CASCO EN SECUELAS ==== */
-#Secuelas {
-    display: flex;
-    flex-direction: row-reverse; /* invierte el orden: texto a la derecha, imagen a la izquierda */
-    justify-content: space-between;
-    align-items: flex-start;
-}
 
-#Secuelas #casco {
-    flex: 0 0 30%;
-    text-align: left;
-}
-
-#Secuelas #casco img {
-    width: 90%;
-    height: auto;
-    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
+#casco img{
+    position: absolute;
+    top: 1810px;
+    left: 45px;
+    width: 23%;                 /* se adapta al espacio */
+    height: 20%;
+    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
     border-radius: 10px;
-}
-
-#Secuelas ol {
-    flex: 0 0 65%;
-    margin-right: 20px;
 }
 #contenido {
     padding:10px;
