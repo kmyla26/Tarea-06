@@ -69,19 +69,16 @@
     align-items: flex-start;
     margin-bottom: 60px;        /* separa visualmente las secciones */
 }
-
-#Precuelas #personajes {
+#personajes {
     flex: 0 0 30%;              /* el bloque del personaje ocupa 30% */
     text-align: right;
 }
-
-#Precuelas #personajes img {
+#personajes img {
     width: 90%;                 /* se adapta al espacio */
     height: auto;
     box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
     border-radius: 10px;
 }
-
 #Precuelas ol {
     flex: 0 0 65%;              /* el texto ocupa el resto */
     margin-left: 20px;
@@ -150,6 +147,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
