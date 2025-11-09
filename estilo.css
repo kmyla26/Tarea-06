@@ -73,7 +73,7 @@
    width: 22%;
    height: 450px;
    position: absolute;
-   margin-top: 100px;
+   margin-top: 800px;
    margin-left: 100px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
@@ -116,6 +116,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
