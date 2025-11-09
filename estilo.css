@@ -49,11 +49,10 @@
     color: white;
 }
 #logo2 img {
-    width: 9.2%;
-    height: 5px;
+    width: 12%;              /* 🔹 Más largo (antes 9.2%) */
     position: absolute;
-    top: 40px;   /* ajusta según necesites */
-    right: 75px;
+    top: 40px;               /* Puedes subirlo o bajarlo según tu gusto */
+    right: 60px;             /* 🔹 Más a la derecha (antes 118px) */
 }
 #logo img{
     width: 100%;
@@ -73,8 +72,8 @@
     width: 22%;
     height: 450px;
     position: absolute;
-    top: 1780px; /* ajusta según necesites */
-    left: 80px;
+    top: 1950px;             /* 🔹 Más abajo (antes 1880px) */
+    left: 80px;              /* Puedes moverlo un poco más si lo deseas */
     box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
@@ -116,6 +115,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
