@@ -3,12 +3,13 @@
     padding: 0;
     font-family: sans-serif;
 }
-#contenedor{
+#contenedor {
     width: 90%;
     height: 2390px;
     padding: 10px;
     margin: 65px -100px 10px 65px;
-    border:1px solid gray;
+    border: 1px solid gray;
+    position: relative; /* ← Esto es CLAVE */
 }
 #cabecera{
     padding: 20px;
@@ -47,11 +48,11 @@
     background-color: dimgrey;
     color: white;
 }
-#logo2 img{
+#logo2 img {
     width: 9.2%;
     position: absolute;
-    top: 105px;
-    right: 118px;
+    top: 40px;   /* ajusta según necesites */
+    right: 80px;
 }
 #logo img{
     width: 100%;
@@ -60,20 +61,20 @@
     margin-bottom: 10px;
 }
 #personajes img {  
-   width: 24%;
-   height: 500px;
-   position: absolute;
-   top: 760px;
-   right: 134px;
-   box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
+    width: 24%;
+    height: 500px;
+    position: absolute;
+    top: 700px;  /* ajusta visualmente */
+    right: 100px;
+    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
 }
 #casco img {
-   width: 22%;
-   height: 450px;
-   position: absolute;
-   top: 1880px;
-   left: 109px;
-   box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
+    width: 22%;
+    height: 450px;
+    position: absolute;
+    top: 1750px; /* ajusta según necesites */
+    left: 80px;
+    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
     padding:10px;
@@ -114,6 +115,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
