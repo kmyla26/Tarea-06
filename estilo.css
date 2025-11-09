@@ -48,10 +48,10 @@
     color: white;
 }
 #logo2 img{
-    width: 10.2%;
+    width: 9%;
     position: absolute;
     top: 105px;
-    left: 1259px;
+    left: 1265px;
 }
 #logo img{
     width: 100%;
@@ -114,4 +114,5 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
