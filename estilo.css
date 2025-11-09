@@ -51,7 +51,7 @@
     width: 9.6%;
     position: absolute;
     top: 105px;
-    left: 1278px;
+    right: 100px;
 }
 #logo img{
     width: 100%;
@@ -64,7 +64,7 @@
    height: 500px;
    position: absolute;
    top: 760px;
-   left: 1037px;
+   right: 104px;
    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
 }
 #casco img {
@@ -72,7 +72,7 @@
    height: 450px;
    position: absolute;
    top: 1950px;
-   left: 108px;
+   left: 104px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
@@ -114,6 +114,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
