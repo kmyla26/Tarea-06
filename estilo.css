@@ -4,7 +4,7 @@
     font-family: sans-serif;
 }
 #contenedor{
-    width: 100%;
+    width: 90%;
     height: 2390px;
     padding: 10px;
     margin: 65px -100px 10px 65px;
@@ -60,11 +60,11 @@
     margin-bottom: 10px;
 }
 #personajes img {  
-   width: 24%;
+   width: 23%;
    height: 500px;
    position: relative;
    top: 760px;
-   right: 104px;
+   right: 100px;
    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
 }
 #casco img {
@@ -72,7 +72,7 @@
    height: 450px;
    position: relative;
    top: 1950px;
-   left: 90px;
+   left: 70px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
 }
 #contenido {
@@ -114,6 +114,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
