@@ -1,4 +1,4 @@
-*{
+la*{
     margin:0;
     padding: 0;
     font-family: sans-serif;
@@ -49,7 +49,7 @@
 }
 #logo2 img{
     width: 9.5%;
-    position: absolute;
+    position: relative;
     top: 105px;
     right: 50%;
 }
@@ -62,7 +62,7 @@
 #personajes img {  
    width: 24%;
    height: 500px;
-   position: absolute;
+   position: relative;
    top: 760px;
    right: 104px;
    box-shadow: 8px 10px 2px 0px rgb(53, 4, 85);
@@ -70,7 +70,7 @@
 #casco img {
    width: 24%;
    height: 450px;
-   position: absolute;
+   position: relative;
    top: 1950px;
    left: 90px;
    box-shadow: 8px 10px 2px 0px rgb(85, 30, 4);
@@ -114,6 +114,7 @@ h2{
     padding: 10px;
     margin-left: 400px;
 }
+
 
 
 
